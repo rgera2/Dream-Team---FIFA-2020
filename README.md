@@ -4,7 +4,10 @@ We have a FIFA dataset in which there are few columns named - rating, release cl
 
 # Dataset
 We used the FIFA 2019 and 2020 data from the Kaggle FIFA complete player dataset which contains 18k+ unique players and 100+ attributes extracted from the latest edition of FIFA. 
+Training Data - FIFA 19,
+Test Data - FIFA 20
 
+# Analysis
 Before building both the models, following steps were performed:
 1. Data Cleaning - Selected relevant variables on the basis of dictionary definitions
 2. Exploratory Data Analysis - Univariate and Bivariate
@@ -20,8 +23,8 @@ Before building both the models, following steps were performed:
 
 # Final Strategy
 Final step was to make a strategy to pick players for our team keeping in mind:
-● Rating should be greater than 70 (means class 1)
-● Budget - 1 billion Euros and number of players around 30.
+1. Rating should be greater than 70 (means class 1)
+2. Budget - 1 billion Euros and number of players around 30.
 
 Firstly, we selected only the players who had ratings greater than threshold of 70. Number of players left - 5276
 
